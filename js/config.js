@@ -9,7 +9,7 @@ const CONFIG = {
   commands: [{
       name: 'Whoogle',
       key: '*',
-      url: 'https://192.168.1.12',
+      url: 'https://192.168.1.12:5000',
       search: '/?q=%s'
     },
     {
