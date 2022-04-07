@@ -10,7 +10,7 @@ const CONFIG = {
       name: 'Whoogle',
       key: '*',
       url: 'http://192.168.1.12:5000',
-      search: '/?q=%s'
+      search: '/search?q=%s'
     },
     {
       category: 'Important',
