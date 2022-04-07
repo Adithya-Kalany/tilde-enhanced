@@ -69,33 +69,33 @@ const CONFIG = {
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
       icon: 'github',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Reddit',
-      name: 'StackOverflow',
-      key: 'st',
-      url: 'https://stackoverflow.com',
+      name: 'r/linux',
+      key: 'lin',
+      url: 'https://libreddit.spike.codes/r/linux',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #53341C, #F48024)',
       icon: 'stackoverflow',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Reddit',
-      name: 'HackerNews',
-      key: 'h',
-      url: 'https://news.ycombinator.com/',
+      name: 'r/firefoxcss',
+      key: 'css',
+      url: 'https://libreddit.spike.codes/r/firefoxcss',
       search: '/search?stories[query]={}',
       color: 'linear-gradient(135deg, #FF6600, #DC5901)',
       icon: 'hackernews',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Reddit',
-      name: 'MDN',
-      key: 'md',
-      url: 'https://developer.mozilla.org/en-US',
+      name: 'r/TranscribersOfReddit',
+      key: 'tor',
+      url: 'https://reddit.com/r/TranscribersOfReddit/',
       search: '/search?q={}',
       color: '#212121',
       icon: 'mdn',
@@ -103,9 +103,9 @@ const CONFIG = {
     },
     {
       category: 'Reddit',
-      name: 'DevDocs',
-      key: 'dd',
-      url: 'https://devdocs.io',
+      name: 'r/linuxmemes',
+      key: 'mem',
+      url: 'https://libreddit.spike.codes/r/linuxmemes',
       color: 'linear-gradient(135deg, #33373A, #484949)',
       icon: 'devdocs',
       quickLaunch: false,
@@ -171,7 +171,7 @@ const CONFIG = {
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
       icon: 'twitter',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Other',
@@ -180,7 +180,7 @@ const CONFIG = {
       url: 'https://www.instagram.com',
       color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
       icon: 'instagram',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Other',
@@ -190,7 +190,7 @@ const CONFIG = {
       search: '/search/results/all/?keywords={}',
       color: 'linear-gradient(135deg, #006CA4, #0077B5)',
       icon: 'linkedin',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Other',
@@ -199,7 +199,7 @@ const CONFIG = {
       url: 'https://www.notion.so',
       color: 'linear-gradient(135deg, #FFF, #3F3F3F)',
       icon: 'notion',
-      quickLaunch: true,
+      quickLaunch: false,
     },
     {
       category: 'Other',
@@ -216,7 +216,7 @@ const CONFIG = {
   /**
    * Get suggestions as you type.
    */
-  suggestions: true,
+  suggestions: false,
   suggestionsLimit: 4,
 
   /**
@@ -268,7 +268,7 @@ const CONFIG = {
   /**
    * Dynamic overlay background colors when command domains are matched.
    */
-  colors: true,
+  colors: false,
 
   /**
    * Invert color theme
@@ -300,7 +300,7 @@ const CONFIG = {
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
-  twentyFourHourClock: true,
+  twentyFourHourClock: false,
 
   /**
    * File extension for icon images
