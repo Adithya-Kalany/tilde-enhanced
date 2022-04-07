@@ -24,7 +24,7 @@ const CONFIG = {
     },
     {
       category: 'Important',
-      name: 'Google Accounts',
+      name: 'Accounts',
       key: 'ga',
       url: 'https://myaccount.google.com/device-activity',
       search: '/drive/search?q={}',
@@ -34,9 +34,9 @@ const CONFIG = {
     },
     {
       category: 'Important',
-      name: 'Telegram',
-      key: 'tg',
-      url: 'https://web.telegram.org',
+      name: 'Codeyoung',
+      key: 'st',
+      url: 'https://studentportal.codeyoung.com/',
       color: '#5682a3',
       icon: 'telegram',
       quickLaunch: false,
@@ -44,7 +44,7 @@ const CONFIG = {
     {
       category: 'Important',
       name: 'WhatsApp',
-      key: 'w',
+      key: 'wh',
       url: 'https://web.whatsapp.com',
       color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
       icon: 'whatsapp',
@@ -52,27 +52,27 @@ const CONFIG = {
     },
     {
       category: 'Important',
-      name: 'Discord',
-      key: 'dc',
-      url: 'https://discord.com/app',
+      name: 'Github',
+      key: 'gi',
+      url: 'https://github.com',
       color: '#7289da',
       icon: 'discord',
       quickLaunch: false,
     },
 
 
-    {
-      category: 'Programming',
-      name: 'GitHub',
-      key: 'g',
-      url: 'https://github.com',
+    { 
+      category: 'Reddit',
+      name: 'r/privacy',
+      key: 'pri',
+      url: 'https://libreddit.spike.codes/r/privacy',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
       icon: 'github',
       quickLaunch: true,
     },
     {
-      category: 'Programming',
+      category: 'Reddit',
       name: 'StackOverflow',
       key: 'st',
       url: 'https://stackoverflow.com',
@@ -82,7 +82,7 @@ const CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Programming',
+      category: 'Reddit',
       name: 'HackerNews',
       key: 'h',
       url: 'https://news.ycombinator.com/',
@@ -92,7 +92,7 @@ const CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Programming',
+      category: 'Reddit',
       name: 'MDN',
       key: 'md',
       url: 'https://developer.mozilla.org/en-US',
@@ -102,7 +102,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Programming',
+      category: 'Reddit',
       name: 'DevDocs',
       key: 'dd',
       url: 'https://devdocs.io',
