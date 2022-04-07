@@ -104,7 +104,7 @@ const CONFIG = {
     {
       category: 'Reddit',
       name: 'r/linuxmemes',
-      key: 'mem',
+      key: 'me',
       url: 'https://libreddit.spike.codes/r/linuxmemes',
       color: 'linear-gradient(135deg, #33373A, #484949)',
       icon: 'devdocs',
