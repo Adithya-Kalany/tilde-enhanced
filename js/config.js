@@ -9,7 +9,7 @@ const CONFIG = {
   commands: [{
       name: 'Whoogle',
       key: '*',
-      url: 'https://whoogle-search.adithyakalany.repl.co',
+      url: 'http://192.168.1.12:5000',
       search: '/search?q=%s'
     },
     {
