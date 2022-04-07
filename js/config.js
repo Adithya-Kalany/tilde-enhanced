@@ -10,7 +10,7 @@ const CONFIG = {
       name: 'Whoogle',
       key: '*',
       url: 'https://whoogle-search.adithyakalany.repl.co',
-      search: '/search?q=%s'
+      search: '/search?q='
     },
     {
       category: 'Important',
