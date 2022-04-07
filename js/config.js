@@ -9,7 +9,7 @@ const CONFIG = {
   commands: [{
       name: 'Whoogle',
       key: '*',
-      url: 'https://192.168.1.12:5000',
+      url: 'http://192.168.1.12:5000',
       search: '/?q=%s'
     },
     {
@@ -113,7 +113,7 @@ const CONFIG = {
 
 
     {
-      category: 'Fun',
+      category: 'Music',
       name: 'YouTube',
       key: 'y',
       url: 'https://youtube.com',
@@ -123,7 +123,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Music',
       name: 'Reddit',
       key: 'r',
       url: 'https://reddit.com',
@@ -133,7 +133,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Music',
       name: 'Netflix',
       key: 'n',
       url: 'https://www.netflix.com',
@@ -142,7 +142,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Music',
       name: 'Spotify',
       key: 's',
       url: 'https://open.spotify.com/',
@@ -152,7 +152,7 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Music',
       name: 'Twitch',
       key: 'tw',
       url: 'https://www.twitch.tv',
